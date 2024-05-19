@@ -1,30 +1,51 @@
-# React + TypeScript + Vite
+# ReactFlow Chat Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This projevct is simple flow based React application build with ReactFlow library. Flow is built by connecting multiple messages together to decide the order of execution.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![](https://github.com/Hitesh-Puri/ReactFlow-Builder/blob/main/Demo.png)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Multiple Text Node creation with drag and drop message.
+2. Connection of two node's edge messages.
+3. Updating messages with click on nodes.
+4. Node Panel houses all kind of Nodes (currently supports message type).
+5. Save button to save message node on the working panel.
 
-- Configure the top-level `parserOptions` property like this:
+## Setup and Installation
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+Clone the repository to your local
+
+```bash
+git clone https://github.com/Hitesh-Puri/ReactFlow-Builder.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Naviagte to the project directory
+
+```bash
+cd [folder-directory]
+```
+
+Install the dependencies using
+
+```bash
+npm install
+```
+
+To run the project in development environment use:
+
+```bash
+npm run dev
+```
+
+This application is build using [Vite](https://vitejs.dev/), so the localhost now be running on http://localhost:5173
+
+## Library used
+
+1. React
+2. React Flow
+3. [TailwindCSS](https://tailwindcss.com/docs/guides/vite)
+
+Feel free to explore the package.json file for a complete list of dependencies.
