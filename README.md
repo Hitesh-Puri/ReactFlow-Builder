@@ -1,10 +1,12 @@
 # ReactFlow Chat Builder
 
-This projevct is simple flow based React application build with ReactFlow library. Flow is built by connecting multiple messages together to decide the order of execution.
+This project is simple flow based React application build with ReactFlow library. Flow is built by connecting multiple messages together to decide the order of execution.
 
 ## Project Overview
 
 ![](https://github.com/Hitesh-Puri/ReactFlow-Builder/blob/main/Demo.png)
+
+[Live Demo](https://messageflow.netlify.app/)
 
 ## Features
 
